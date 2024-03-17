@@ -3,6 +3,8 @@
 const removeDuplicates = (array) => {
   const uniqueSet = new Set(array);
 
+  console.log(uniqueSet);
+
   const uniqueArray = [...uniqueSet];
 
   return uniqueArray;
